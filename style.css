@@ -31,6 +31,8 @@ nav, section, footer, #message, #fullname, #email {
 
 header {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 60rem;
+  margin: auto;
 }
 .main-title-div {
   height: 12rem;
@@ -92,7 +94,7 @@ h1 {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 60rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: whitesmoke;
 }
