@@ -243,7 +243,7 @@ a:active {
   color: black;
 }
 
-@media screen and (max-width: 680px) { 
+@media screen and (max-width: 720px) { 
    img, #javascript  {
     display: none;
   }
