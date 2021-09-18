@@ -35,7 +35,6 @@ header {
 .main-title-div {
   height: 12rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
 }
 
 h1 {
@@ -46,7 +45,9 @@ h1 {
   color: lightblue;
 }
 
-
+.main-title-div i {
+  display: none;
+}
 
 
 /*-------------------------------------------------------------------------*/
@@ -128,8 +129,7 @@ a:active {
 #javascript{
   height: 20rem;
   margin: 1rem auto;
-  max-width: 80rem;
-
+  max-width: 60rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
  /* position: absolute;
@@ -143,7 +143,7 @@ a:active {
 #javascript-logic { 
   text-align: center;
   padding-top: 3rem;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -343,6 +343,7 @@ footer {
 
   #navigation-bar-items li {
     padding: 0.25rem 0;
+    display: block;
     }
 
   .menu {
