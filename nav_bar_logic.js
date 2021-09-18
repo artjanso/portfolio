@@ -16,11 +16,16 @@ function myFunction() {
 const isMobile = $('.image').css('display');
 console.log(isMobile);
 
+$('#menu').on('click', () => {
+  $('#navigation-bar').toggle();
+  }
+);
+
 // Logic for mobile
 if(isMobile == 'none'){
   $('#navigation-bar').css('display', 'none')
   
-  
+  /*
   function myFunction() {
     var x = document.getElementById("navigation-bar");
     if (x.style.display === "block") {
@@ -29,12 +34,12 @@ if(isMobile == 'none'){
       x.style.display = "block";
     }
   }
-
-  $('#navigation-bar').on('click', () => {
-    if($('#navigation-bar').css('display') == 'none') {
-      $('#navigation-bar').css('display', 'block');
+*/
+  $('#menu').on('click', () => {
+    if($('#navigation-bar').css('display') == 'block') {
+      $('#navigation-bar').css('display') = 'none';
     } else {
-      $('#navigation-bar').css('display', 'none');
+      $('#navigation-bar').css('display') = 'block';
     }
   });
 
