@@ -11,12 +11,15 @@ function myFunction() {
   }
 }
 */
+
+
 const isMobile = $('.image').css('display');
 console.log(isMobile);
 
 // Logic for mobile
 if(isMobile == 'none'){
   $('#navigation-bar-items').css('display', 'none')
+  
   
   function myFunction() {
     var x = document.getElementById("navigation-bar-items");

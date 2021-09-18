@@ -47,7 +47,8 @@ h1 {
   color: lightblue;
 }
 
-.main-title-div i {
+
+#menu {
   display: none;
 }
 
@@ -321,7 +322,7 @@ footer {
 }
 
 
-@media screen and (max-width: 620px) { 
+@media screen and (max-width: 720px) { 
    img, #javascript  {
     display: none;
   }
@@ -348,7 +349,7 @@ footer {
     display: block;
     }
 
-  .menu {
+  #menu {
     display: block;
   }
   
