@@ -13,45 +13,60 @@ html {
     scroll-behavior: smooth;
 }
 
-/*
-body {
-  border: solid 1px black;
-  width: 80rem;
-  margin: auto;
-}
-*/
-
 /*Font*/
 nav, section, footer, #message, #fullname, #email {
   font-family: Helvetica, Arial, sans-serif
 }
 
-/*-------------------------------------------------------------------------*/
-/*Main title attributes*/
-
-header {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 60rem;
-  margin: auto;
-}
-.main-title-div {
-  height: 12rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
+/*Main tag adjustment*/
 h1 {
   font-size: 8rem;
+}
+
+img {
+  height: 40rem;
+  width: 35rem;
+}
+
+h2{
+  font-size: 2.5rem;
+  border-bottom: solid 0.05rem black;
+  max-width: 60rem;
+  margin: 1rem auto;
+}
+
+section p, h3 {
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+}
+
+/*Consolidated adjustments*/
+footer, header, .main-title-div, .sticky, #javascript, .about-section, .main-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer, header, .about-section, .about-section div {
+  margin: 0 auto;  
+}
+
+header, #javascript, .about-section, .main-content {
+  max-width: 60rem;
+}
+
+/*-------------------------------------------------------------------------*/
+/*Main title attributes*/
+.main-title-div {
+  height: 12rem;
 }
 
 #sub-title {
   color: lightblue;
 }
 
-
 #menu {
   display: none;
 }
-
 
 /*-------------------------------------------------------------------------*/
 /*Navigation bar attributes*/
@@ -64,12 +79,8 @@ h1 {
 }
 
 #navigation-bar {
-
-  
   overflow: hidden;
-  
 }
-
 
 #navigation-bar-items li {
   padding: 0 2rem;
@@ -78,11 +89,7 @@ h1 {
   font-size: 1.5rem;
   cursor: pointer;
 }
-/*
-#navigation-bar {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-*/
+
 #nav {
   border-left: solid 1px black;
 }
@@ -96,7 +103,6 @@ h1 {
   position: fixed;
   top: 0;
   width: 60rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: whitesmoke;
 }
 
@@ -124,7 +130,6 @@ a:hover {
 a:active {
   text-decoration: none;
   color: black;
-  
 }
 
 /*-------------------------------------------------------------------------*/
@@ -132,15 +137,7 @@ a:active {
 #javascript{
   height: 20rem;
   margin: 1rem auto;
-  max-width: 60rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
- /* position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;*/
   background: radial-gradient(whitesmoke, rgb(217, 240, 248)); 
-  
 }
 
 #javascript-logic { 
@@ -151,18 +148,7 @@ a:active {
 
 /*-------------------------------------------------------------------------*/
 /*About me*/
-
-.about-section { 
-  /*background: linear-gradient(to right,lightblue, whitesmoke);*/
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 60rem;
-  margin: auto;
-}
-
-
 .about-section div { 
-  max-width: 60rem;
-  margin: auto;
   display: flex;
   padding: 0.25rem 0.25rem;
 }
@@ -171,59 +157,12 @@ a:active {
   line-height: 1.8rem;
 }
 
-img {
-  height: 40rem;
-  width: 35rem;
-}
-
-/*
-.about-paragraph div{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-*/
-
-/*
-.about-section h2 { 
-  border-bottom: solid 0.05rem black;
-  padding: 1rem;
-}
-*/
-
 /*-------------------------------------------------------------------------*/
 /*Project section*/
 .main-content {
-  /*border: solid 1px black;*/
-  /*height: 25rem;*/
-  margin: 1rem auto;
-  max-width: 60rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-h2{
-  font-size: 2.5rem;
-  border-bottom: solid 0.05rem black;
-  max-width: 60rem;
   margin: 1rem auto;
 }
 
-section p, h3 {
-  text-align: left;
-  padding-top: 1rem;
-  font-size: 1.25rem;
-}
-
-/*
-#about, #projects, #skills, #contact  {
-  border-bottom: solid 0.05rem black;
-  padding: 1rem;
-  
-}
-*/
-
-/*.project-sumary {
-  border: solid 1px black;
-}
-*/
 .project {
   border: solid 1px red;
   display: inline-flex;
@@ -242,19 +181,15 @@ section p, h3 {
   width: 100%;
 }
 
-
-
 /*-------------------------------------------------------------------------*/
 /*Skills*/
 .skill-icons {
   border: solid 1px red;
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-around; 
 }
 
 .icons {
-  /*border: solid 1px black;*/
   display: inline-flex;
   flex-direction: column;
   height: 8rem;
@@ -269,13 +204,6 @@ section p, h3 {
 
 /*-------------------------------------------------------------------------*/
 /*Contact*/
-
-/*
-#contacts {
-  
-}
-*/
-
 .contact-form {
  border: solid 1px red;
  display: flex;
@@ -304,12 +232,6 @@ section p, h3 {
 
 /*-------------------------------------------------------------------------*/
 /*Footer*/
-footer {
-  margin: 0 auto;
-  /*max-width: 80rem; */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 .footer-setup {
   display: flex;
   justify-content: space-between;
@@ -320,7 +242,6 @@ footer {
 .footer a {
   color: black;
 }
-
 
 @media screen and (max-width: 720px) { 
    img, #javascript  {
@@ -351,6 +272,5 @@ footer {
 
   #menu {
     display: block;
-  }
-  
+  } 
 }
