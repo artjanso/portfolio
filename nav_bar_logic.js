@@ -12,7 +12,7 @@ function myFunction() {
 }
 */
 
-/*
+
 const isMobile = $('.image').css('display');
 console.log(isMobile);
 
@@ -45,5 +45,3 @@ if(isMobile == 'block'){
     }
   }
 }
-
-*/
