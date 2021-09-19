@@ -164,7 +164,7 @@ a:active {
 }
 
 .project {
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -175,11 +175,34 @@ a:active {
 }
 
 .project h3, .project p {
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
   text-align: center;
   align-content: flex-end;
   width: 100%;
 }
+
+#first-project {
+  background-image: url("components/RandomMessage.PNG");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 20rem 18rem;
+}
+
+#secound-project {
+  background-image: url("components/Excursion.PNG");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 20rem 18rem;;
+}
+
+#third-project {
+  background-image: url("components/Gym_Responsive_DesignPNG.PNG");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 20rem 18rem;;
+}
+
+
 
 /*-------------------------------------------------------------------------*/
 /*Skills*/
